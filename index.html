@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Luciano's Website</title>
+    <title>My First Website</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -18,7 +18,6 @@
 </nav>
 
     <div class="content">
-    <hr>
     <h1>Luciano Rubino</h1>
     <p>Here you can find some information about myself.</p>
 
@@ -27,17 +26,13 @@
         <h2 id="about-me">1. About Me</h2>
         <p> Hello, my name is
             <span class="highlight">Luciano</span>
-            and I am
-            <span class="highlight">35</span>
-        </p>
-        <p>I am a student at Code Nation.</p>
-
+        I am a student at Code Nation.</p>
 
             <div>
             <hr>
             <h3 id="fav-things">1.1 My Favourite Things</h3>
 
-            <nav>
+            <nav class="container">
                 <div>
                 <h4>1.1.1 Hobbies</h4>
                 <ol>
@@ -55,9 +50,9 @@
 
                 <h4>1.1.3 Colours</h4>
                 <ol>
-                    <li>Black</li>
-                    <li>White</li>
                     <li>Red</li>
+                    <li>Orange</li>
+                    <li>Yellow</li>
                 </ol>
 
                 <h4>1.1.4 Books</h4>
@@ -128,18 +123,26 @@
             <h3 id="my-skills">1.2 My Skills</h3>
             <p>1. Culinary, specialized in italian cousine.</p>
             <p>2. Creativity, very interested in all sort of crafts.</p>
-            <p>3. ?</p>
+            <p>3. Analythic, interested in all sort of analysis.</p>
 
             <hr>
-        <nav>
             <h3 id="places-visit">1.3 Places I'd like to visit</h3>
-            <p>Tokyo</p>
-                <img src="images/tokyo.jpg" width="300" height="200" alt="Tokyo">
-            <p>New York</p>
-                <img src="images/new_york.jpg" width="300" height="200" alt="New York">
-            <p>Sweden</p>
-                <img src="images/sweden.jpg" width="300" height="200" alt="Sweden">
-        </nav>
+            <nav>
+                <div class="image-container">
+                    <p>Tokyo</p>
+                    <img src="images/tokyo.jpg" width="210" height="140" alt="Tokyo">
+                </div>
+            
+                <div class="image-container">
+                    <p>New York</p>
+                    <img src="images/new_york.jpg" width="210" height="140" alt="New York">
+                </div>
+            
+                <div class="image-container">
+                    <p>Sweden</p>
+                    <img src="images/sweden.jpg" width="210" height="140" alt="Sweden">
+                </div>
+            </nav>
 
 <hr>
                 </div>
@@ -148,11 +151,12 @@
     </div>
 
 <form>
-    Full Name: <input type="text" id="firstnamebox" name="first_name"></br>
-    Password: <input type="password" id="passwordbox" name="password"></br>
-    Newsletter: <input type="checkbox" id="checkbox" name="checkbox"></br>
-    Privacy: <input type="radio" id="radiobox" name="radiobox"></br>
-    Submit: <input type="submit" id="submit" value="Submit" name="submit"></br>
+    Full Name: <input type="text" id="firstnamebox" name="first_name">
+    Password: <input type="password" id="passwordbox" name="password">
+    <br>
+    Newsletter: <input type="checkbox" id="checkbox" name="checkbox">
+    Privacy: <input type="radio" id="radiobox" name="radiobox">
+    Submit: <input type="submit" id="submit" value="Submit" name="submit">
 </form>
 
 </body>
