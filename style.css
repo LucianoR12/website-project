@@ -1,0 +1,114 @@
+body{
+    background-color: lightgray;
+}
+
+.content{
+    background-color: whitesmoke;
+    min-height: 100vh;
+    width: 70%;
+    text-align: auto;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+h1{
+    color: darkred;
+    size: 18px;
+    text-align: center;
+}
+
+h2{
+    color: red;
+    size: 16px;
+    text-align: center;
+}
+
+h3{
+    color: darkorange;
+    size: 14px;
+    text-align: center;
+}
+
+h4{
+    color: orange;
+    size: 12px;
+}
+
+p{
+    color: orangered;
+    size: 10px;
+}
+
+nav>p{
+    text-align: center;
+}
+
+nav>a{
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    color: orangered;
+    size: 8px;
+}
+
+a:hover{
+    color: yellow;
+}
+
+form{
+    color: orangered;
+    size: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 10px;
+    border: solid red 3px;
+}
+
+nav{
+    overflow: auto;
+}
+
+img{
+    display:block;
+    margin: 5px auto;
+    padding: 10px;
+    box-shadow: 0px 3px 3px grey;
+}
+
+#about-me{
+    font-size: auto;
+}
+
+#fav-things{
+    font-size: auto;
+}
+
+#my-skills{
+    font-size: auto;
+}
+
+#places-visit{
+    font-size: auto;
+}
+
+ol li:nth-child(1n){
+    color: gold;
+}
+
+ol li:nth-child(2n){
+    color: silver;
+}
+
+ol li:nth-child(3n){
+    color: #CD7F32;
+}
+
+selector{
+    color: purple;
+    color: #800080;
+    color: rgb(128,0,128);
+    color: rgb(128,0,128,0.5);
+}
