@@ -123,15 +123,15 @@ nav img {
     font-size: auto;
 } */
 
-ol li:nth-child(1n){
+.gold {
     color: gold;
 }
 
-ol li:nth-child(2n){
+.silver {
     color: silver;
 }
 
-ol li:nth-child(3n){
+.bronze {
     color: #CD7F32;
 }
 
